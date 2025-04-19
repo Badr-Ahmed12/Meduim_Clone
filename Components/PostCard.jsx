@@ -8,20 +8,10 @@ export default function PostCard({ post }) {
   const [isBookmarked, setIsBookmarked] = useState(false);
 
   return (
-    <div className="flex flex-col gap-2 p-6 border border-gray-200 hover:shadow-md bg-white transition-shadow rounded-xl">
-      {/* Header */}
-      <div className="flex items-center gap-1.5 text-xs text-gray-500">
-        <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-        <p>
-          Because you follow{" "}
-          <span className="text-blue-600 font-medium hover:underline cursor-pointer">
-            React
-          </span>
-        </p>
-      </div>
+    <div className="flex flex-col gap-4 p-4 sm:p-6">
 
       {/* Meta Info */}
-      <p className="text-xs text-gray-500 ml-5">
+      <p className="text-xs text-gray-500 ml-1 sm:ml-5">
         In{" "}
         <span className="hover:text-black font-medium cursor-pointer">
           Classy Endeavors
@@ -33,9 +23,11 @@ export default function PostCard({ post }) {
       </p>
 
       {/* Body */}
-      <div className="flex gap-4 mt-2">
+      <div className="flex flex-col sm:flex-row gap-4 mt-2">
+
+        {/* Content */}
         <div className="flex-1">
-          <h3 className="text-xl font-semibold text-gray-900 mb-2 hover:underline cursor-pointer">
+          <h3 className="text-xl sm:text-3xl font-sans font-bold text-gray-900 mb-2 hover:underline cursor-pointer">
             {post.title}
           </h3>
           <p className="text-sm text-gray-700 mb-3 leading-relaxed line-clamp-3">
@@ -43,8 +35,8 @@ export default function PostCard({ post }) {
           </p>
 
           {/* Footer */}
-          <div className="flex items-center justify-between text-sm text-gray-500 mt-auto">
-            <div className="flex items-center gap-1.5 bg-amber-50 px-2 py-1 rounded-full cursor-default">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between text-sm text-gray-500 mt-auto gap-2">
+            <div className="flex items-center gap-1.5 bg-amber-50 px-2 py-1 rounded-full cursor-default w-fit">
               <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
               <span className="text-xs font-medium text-amber-700">
                 {new Date(post.publishedAt).toLocaleDateString("en-US", {
@@ -55,7 +47,7 @@ export default function PostCard({ post }) {
               </span>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               <button
                 className="w-8 h-8 rounded-full hover:bg-gray-100 flex items-center justify-center"
                 aria-label="Hide post"
@@ -86,7 +78,7 @@ export default function PostCard({ post }) {
         </div>
 
         {/* Image */}
-        <div className="w-24 h-24 shrink-0 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div className="w-full sm:w-24 h-48 sm:h-24 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
           <Image
             src={post.image}
             alt="Post image"
@@ -96,6 +88,9 @@ export default function PostCard({ post }) {
           />
         </div>
       </div>
+
+      {/* Divider */}
+      <hr className="border-gray-200 border-t" />
     </div>
   );
 }
