@@ -1,76 +1,32 @@
 "use client";
 
-import PostCard from "./PostCard";
-
-const posts = [
-  {
-    id: 1,
-    title: "Is Aceternity UI worth the hype?",
-    content:
-      "Explore its features, pros & cons, pricing, templates, and real-world usage. Find out if this modern UI library is the right fit.",
-    publishedAt: "2024-03-14",
-    image: "https://picsum.photos/seed/aceternity/96/96",
-  },
-  {
-    id: 2,
-    title: "Why React dominates the frontend world?",
-    content:
-      "React is more than a library; it's a mindset. Learn why it's leading and how it compares to others like Vue & Angular.",
-    publishedAt: "2024-04-02",
-    image: "https://picsum.photos/seed/react/96/96",
-  },
-  {
-    id: 3,
-    title: "The future of UI: Components vs Utility-first",
-    content:
-      "Dive into Tailwind CSS and the debate between reusable components and utility-first styling. Who's winning?",
-    publishedAt: "2024-02-27",
-    image: "https://picsum.photos/seed/uiux/96/96",
-  },
-  {
-    id: 3,
-    title: "The future of UI: Components vs Utility-first",
-    content:
-      "Dive into Tailwind CSS and the debate between reusable components and utility-first styling. Who's winning?",
-    publishedAt: "2024-02-27",
-    image: "https://picsum.photos/seed/uiux/96/96",
-  },  {
-    id: 3,
-    title: "The future of UI: Components vs Utility-first",
-    content:
-      "Dive into Tailwind CSS and the debate between reusable components and utility-first styling. Who's winning?",
-    publishedAt: "2024-02-27",
-    image: "https://picsum.photos/seed/uiux/96/96",
-  },  {
-    id: 3,
-    title: "The future of UI: Components vs Utility-first",
-    content:
-      "Dive into Tailwind CSS and the debate between reusable components and utility-first styling. Who's winning?",
-    publishedAt: "2024-02-27",
-    image: "https://picsum.photos/seed/uiux/96/96",
-  },  {
-    id: 3,
-    title: "The future of UI: Components vs Utility-first",
-    content:
-      "Dive into Tailwind CSS and the debate between reusable components and utility-first styling. Who's winning?",
-    publishedAt: "2024-02-27",
-    image: "https://picsum.photos/seed/uiux/96/96",
-  },  {
-    id: 3,
-    title: "The future of UI: Components vs Utility-first",
-    content:
-      "Dive into Tailwind CSS and the debate between reusable components and utility-first styling. Who's winning?",
-    publishedAt: "2024-02-27",
-    image: "https://picsum.photos/seed/uiux/96/96",
-  },
-];
+import { useState, useEffect } from "react";
+import NavigationBar from "./UI/postList/NavigationBar";
+import PostCard from "./UI/postList/PostCard";
 
 export default function PostCardList() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fetch("/posts.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("فشل تحميل البيانات");
+        return res.json();
+      })
+      .then((data) => setPosts(data))
+      .catch((err) => console.error(err));
+  }, []);
+
   return (
-    <div className="flex flex-col gap-1">
-      {posts.map((post) => (
-        <PostCard key={post.id} post={post} />
-      ))}
+    <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+      <NavigationBar />
+      <div className="flex flex-col divide-y divide-gray-200">
+        {posts.map((post) => (
+          <div className="py-4 sm:py-6 first:pt-0 last:pb-0" key={post.id}>
+            <PostCard post={post} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

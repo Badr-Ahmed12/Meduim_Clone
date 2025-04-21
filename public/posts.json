@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Is Aceternity UI worth the hype?",
+    "content": "Explore its features, pros & cons, pricing, templates, and real-world usage. Find out if this modern UI library is the right fit.",
+    "publishedAt": "2024-03-14",
+    "image": "https://picsum.photos/seed/aceternity/96/96"
+  },
+  {
+    "id": 2,
+    "title": "The Future of Web Development in 2024",
+    "content": "Discover emerging trends, technologies, and best practices shaping the future of web development.",
+    "publishedAt": "2024-03-15",
+    "image": "https://picsum.photos/seed/webdev2024/96/96"
+  },
+  {
+    "id": 3,
+    "title": "Mastering React Performance Optimization",
+    "content": "Learn advanced techniques to boost your React application's performance and user experience.",
+    "publishedAt": "2024-03-16",
+    "image": "https://picsum.photos/seed/reactperf/96/96"
+  },
+  {
+    "id": 4,
+    "title": "Understanding TypeScript Generics",
+    "content": "A comprehensive guide to using generics in TypeScript for better type safety and code reusability.",
+    "publishedAt": "2024-03-17",
+    "image": "https://picsum.photos/seed/typescript/96/96"
+  },
+  {
+    "id": 5,
+    "title": "Building Scalable Microservices",
+    "content": "Essential principles and patterns for designing and implementing scalable microservice architectures.",
+    "publishedAt": "2024-03-18",
+    "image": "https://picsum.photos/seed/microservices/96/96"
+  },
+  {
+    "id": 6,
+    "title": "CSS Grid vs Flexbox",
+    "content": "When to use Grid vs Flexbox - a practical guide to modern CSS layouts.",
+    "publishedAt": "2024-03-19",
+    "image": "https://picsum.photos/seed/csslayout/96/96"
+  },
+  {
+    "id": 7,
+    "title": "Getting Started with Next.js 14",
+    "content": "Everything you need to know about the latest features in Next.js 14.",
+    "publishedAt": "2024-03-20",
+    "image": "https://picsum.photos/seed/nextjs14/96/96"
+  },
+  {
+    "id": 8,
+    "title": "AI in Web Development",
+    "content": "How artificial intelligence is transforming web development workflows and tools.",
+    "publishedAt": "2024-03-21",
+    "image": "https://picsum.photos/seed/aiwebdev/96/96"
+  },
+  {
+    "id": 9,
+    "title": "Modern Authentication Patterns",
+    "content": "Implementing secure authentication in modern web applications.",
+    "publishedAt": "2024-03-22",
+    "image": "https://picsum.photos/seed/auth/96/96"
+  },
+  {
+    "id": 10,
+    "title": "State Management in 2024",
+    "content": "Comparing popular state management solutions for modern web applications.",
+    "publishedAt": "2024-03-23",
+    "image": "https://picsum.photos/seed/state/96/96"
+  },
+  {
+    "id": 11,
+    "title": "Web Performance Metrics",
+    "content": "Understanding and optimizing Core Web Vitals for better user experience.",
+    "publishedAt": "2024-03-24",
+    "image": "https://picsum.photos/seed/webperf/96/96"
+  },
+  {
+    "id": 12,
+    "title": "GraphQL Best Practices",
+    "content": "Tips and tricks for building efficient GraphQL APIs.",
+    "publishedAt": "2024-03-25",
+    "image": "https://picsum.photos/seed/graphql/96/96"
+  },
+  {
+    "id": 13,
+    "title": "Serverless Architecture Patterns",
+    "content": "Design patterns and best practices for serverless applications.",
+    "publishedAt": "2024-03-26",
+    "image": "https://picsum.photos/seed/serverless/96/96"
+  },
+  {
+    "id": 14,
+    "title": "Web Security Fundamentals",
+    "content": "Essential security practices for modern web applications.",
+    "publishedAt": "2024-03-27",
+    "image": "https://picsum.photos/seed/security/96/96"
+  },
+  {
+    "id": 15,
+    "title": "Docker for Developers",
+    "content": "A practical guide to using Docker in development workflows.",
+    "publishedAt": "2024-03-28",
+    "image": "https://picsum.photos/seed/docker/96/96"
+  },
+  {
+    "id": 16,
+    "title": "Testing React Applications",
+    "content": "Comprehensive guide to testing React applications with modern tools.",
+    "publishedAt": "2024-03-29",
+    "image": "https://picsum.photos/seed/testing/96/96"
+  },
+  {
+    "id": 17,
+    "title": "CSS-in-JS Solutions",
+    "content": "Comparing popular CSS-in-JS libraries and their use cases.",
+    "publishedAt": "2024-03-30",
+    "image": "https://picsum.photos/seed/cssinjs/96/96"
+  },
+  {
+    "id": 18,
+    "title": "Web Accessibility Guidelines",
+    "content": "Making web applications accessible to everyone.",
+    "publishedAt": "2024-03-31",
+    "image": "https://picsum.photos/seed/a11y/96/96"
+  },
+  {
+    "id": 19,
+    "title": "Progressive Web Apps",
+    "content": "Building modern PWAs with the latest web technologies.",
+    "publishedAt": "2024-04-01",
+    "image": "https://picsum.photos/seed/pwa/96/96"
+  },
+  {
+    "id": 20,
+    "title": "API Design Principles",
+    "content": "Best practices for designing RESTful APIs.",
+    "publishedAt": "2024-04-02",
+    "image": "https://picsum.photos/seed/api/96/96"
+  },
+  {
+    "id": 21,
+    "title": "Modern CSS Features",
+    "content": "Exploring the latest CSS features and their practical applications.",
+    "publishedAt": "2024-04-03",
+    "image": "https://picsum.photos/seed/css/96/96"
+  },
+  {
+    "id": 22,
+    "title": "Web Components",
+    "content": "Building reusable components with Web Components standards.",
+    "publishedAt": "2024-04-04",
+    "image": "https://picsum.photos/seed/webcomponents/96/96"
+  },
+  {
+    "id": 23,
+    "title": "Database Selection Guide",
+    "content": "Choosing the right database for your web application.",
+    "publishedAt": "2024-04-05",
+    "image": "https://picsum.photos/seed/database/96/96"
+  },
+  {
+    "id": 24,
+    "title": "Code Review Best Practices",
+    "content": "Effective code review strategies for development teams.",
+    "publishedAt": "2024-04-06",
+    "image": "https://picsum.photos/seed/codereview/96/96"
+  },
+  {
+    "id": 25,
+    "title": "Frontend Build Tools",
+    "content": "Understanding modern frontend build tools and bundlers.",
+    "publishedAt": "2024-04-07",
+    "image": "https://picsum.photos/seed/buildtools/96/96"
+  },
+  {
+    "id": 26,
+    "title": "React Server Components",
+    "content": "Deep dive into React Server Components and their benefits.",
+    "publishedAt": "2024-04-08",
+    "image": "https://picsum.photos/seed/rsc/96/96"
+  },
+  {
+    "id": 27,
+    "title": "Web Animation Techniques",
+    "content": "Creating smooth and performant web animations.",
+    "publishedAt": "2024-04-09",
+    "image": "https://picsum.photos/seed/animation/96/96"
+  },
+  {
+    "id": 28,
+    "title": "Micro-frontends Architecture",
+    "content": "Implementing micro-frontends in modern web applications.",
+    "publishedAt": "2024-04-10",
+    "image": "https://picsum.photos/seed/microfrontend/96/96"
+  },
+  {
+    "id": 29,
+    "title": "Web3 Development",
+    "content": "Getting started with Web3 and blockchain development.",
+    "publishedAt": "2024-04-11",
+    "image": "https://picsum.photos/seed/web3/96/96"
+  },
+  {
+    "id": 30,
+    "title": "CI/CD Pipeline Setup",
+    "content": "Setting up efficient CI/CD pipelines for web projects.",
+    "publishedAt": "2024-04-12",
+    "image": "https://picsum.photos/seed/cicd/96/96"
+  },
+  {
+    "id": 31,
+    "title": "Responsive Design Patterns",
+    "content": "Modern approaches to responsive web design.",
+    "publishedAt": "2024-04-13",
+    "image": "https://picsum.photos/seed/responsive/96/96"
+  },
+  {
+    "id": 32,
+    "title": "JavaScript Performance",
+    "content": "Optimizing JavaScript code for better performance.",
+    "publishedAt": "2024-04-14",
+    "image": "https://picsum.photos/seed/jsperf/96/96"
+  },
+  {
+    "id": 33,
+    "title": "Monorepo Management",
+    "content": "Managing large-scale projects with monorepos.",
+    "publishedAt": "2024-04-15",
+    "image": "https://picsum.photos/seed/monorepo/96/96"
+  },
+  {
+    "id": 34,
+    "title": "Browser APIs",
+    "content": "Exploring modern browser APIs and their capabilities.",
+    "publishedAt": "2024-04-16",
+    "image": "https://picsum.photos/seed/browserapi/96/96"
+  },
+  {
+    "id": 35,
+    "title": "Design Systems",
+    "content": "Building and maintaining effective design systems.",
+    "publishedAt": "2024-04-17",
+    "image": "https://picsum.photos/seed/designsystem/96/96"
+  },
+  {
+    "id": 36,
+    "title": "WebAssembly Introduction",
+    "content": "Getting started with WebAssembly development.",
+    "publishedAt": "2024-04-18",
+    "image": "https://picsum.photos/seed/wasm/96/96"
+  },
+  {
+    "id": 37,
+    "title": "Error Handling Patterns",
+    "content": "Effective error handling strategies in web applications.",
+    "publishedAt": "2024-04-19",
+    "image": "https://picsum.photos/seed/errors/96/96"
+  },
+  {
+    "id": 38,
+    "title": "Web Workers Guide",
+    "content": "Utilizing Web Workers for better performance.",
+    "publishedAt": "2024-04-20",
+    "image": "https://picsum.photos/seed/webworkers/96/96"
+  },
+  {
+    "id": 39,
+    "title": "SEO Best Practices",
+    "content": "Modern SEO techniques for web applications.",
+    "publishedAt": "2024-04-21",
+    "image": "https://picsum.photos/seed/seo/96/96"
+  },
+  {
+    "id": 40,
+    "title": "Web Storage Solutions",
+    "content": "Comparing different web storage options and their use cases.",
+    "publishedAt": "2024-04-22",
+    "image": "https://picsum.photos/seed/storage/96/96"
+  },
+  {
+    "id": 41,
+    "title": "Frontend Testing Tools",
+    "content": "Overview of modern frontend testing tools and frameworks.",
+    "publishedAt": "2024-04-23",
+    "image": "https://picsum.photos/seed/testtools/96/96"
+  },
+  {
+    "id": 42,
+    "title": "Web Typography",
+    "content": "Best practices for web typography and font optimization.",
+    "publishedAt": "2024-04-24",
+    "image": "https://picsum.photos/seed/typography/96/96"
+  },
+  {
+    "id": 43,
+    "title": "HTTP/3 and QUIC",
+    "content": "Understanding the next generation of HTTP protocols.",
+    "publishedAt": "2024-04-25",
+    "image": "https://picsum.photos/seed/http3/96/96"
+  },
+  {
+    "id": 44,
+    "title": "Webpack Configuration",
+    "content": "Advanced Webpack configuration techniques.",
+    "publishedAt": "2024-04-26",
+    "image": "https://picsum.photos/seed/webpack/96/96"
+  },
+  {
+    "id": 45,
+    "title": "Web Cryptography",
+    "content": "Using the Web Cryptography API for security.",
+    "publishedAt": "2024-04-27",
+    "image": "https://picsum.photos/seed/crypto/96/96"
+  },
+  {
+    "id": 46,
+    "title": "CSS Architecture",
+    "content": "Building scalable CSS architectures for large applications.",
+    "publishedAt": "2024-04-28",
+    "image": "https://picsum.photos/seed/cssarch/96/96"
+  },
+  {
+    "id": 47,
+    "title": "Real-time Web Apps",
+    "content": "Building real-time features with WebSocket and SSE.",
+    "publishedAt": "2024-04-29",
+    "image": "https://picsum.photos/seed/realtime/96/96"
+  },
+  {
+    "id": 48,
+    "title": "Code Splitting Strategies",
+    "content": "Implementing effective code splitting in web applications.",
+    "publishedAt": "2024-04-30",
+    "image": "https://picsum.photos/seed/codesplit/96/96"
+  },
+  {
+    "id": 49,
+    "title": "Web Components Styling",
+    "content": "Advanced styling techniques for Web Components.",
+    "publishedAt": "2024-05-01",
+    "image": "https://picsum.photos/seed/wcstyle/96/96"
+  },
+  {
+    "id": 50,
+    "title": "Frontend Architecture",
+    "content": "Designing robust frontend architectures for scale.",
+    "publishedAt": "2024-05-02",
+    "image": "https://picsum.photos/seed/architecture/96/96"
+  }
+]

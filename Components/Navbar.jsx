@@ -63,7 +63,7 @@ export default function Navbar() {
       {/* Logo + Search */}
       <div className="flex items-center gap-4">
         <Link href="/" className="text-2xl font-semibold text-gray-700">
-          Medium
+        <Image src="/logo.svg" alt="Logo" width={120} height={120} />
         </Link>
         {/* Search hidden on small */}
         <div
@@ -96,7 +96,7 @@ export default function Navbar() {
               {filtered.length ? (
                 filtered.map((item, idx) => (
                   <li
-                    key={idx}
+                    key={idx + item}
                     onClick={() => { setQuery(item); setShowSuggestions(false) }}
                     className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700"
                   >
@@ -167,7 +167,7 @@ export default function Navbar() {
                 {filtered.length ? (
                   filtered.map((item, idx) => (
                     <li
-                      key={idx}
+                      key={idx + item}
                       onClick={() => { setQuery(item); setShowSuggestions(false) }}
                       className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700"
                     >
